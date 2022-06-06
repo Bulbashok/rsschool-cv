@@ -1,2 +1,5 @@
 # CV 
 ***
+## Location
+* Belarus
+* Minsk
