@@ -1,5 +1,6 @@
 # CV 
 ***
-## Location
+## LOCATION
 * Belarus
-* Minsk
+* Mensk
+***
