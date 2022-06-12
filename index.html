@@ -1,1 +1,104 @@
-hellow world
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./Assets/cv.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@700&family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@700&family=Open+Sans+Condensed:wght@300&family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#progects" class="nav-link">Progect</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container container-main">
+        <section class="profile" id="profile">
+          <img class="img" src="./Assets/photo.jpg" alt="my photo">
+          <div class="profile-title">
+            <h1 class="main-title">Matsuk Mikhail </h1>
+            <h3 class="sub-title"> Rsschool student </h3>
+          </div>
+        </section>
+        <section class="contakst" id="contakts">
+          <h2 class="section-title">contakts</h2>
+          <ul class="contakts-info">
+            <li class="items location">Mensk, Belarus</li>
+            <li class="items phone"> +375(29) 708-34-23</li>
+            <li class="items github">github:  <a href="https://github.com/Bulbashok">  bulbashok </a></li>
+            <li class="items email">email:  <a href="bulbashok97@gmail.com">  bulbashok97@gmail.com </a></li>
+          </ul>
+        </section>
+        <section class="summary" id="summary">
+          <h2 class="section-title">summary</h2>
+          <p class="summary">I started to be interested in programming and enrolled in courses in rs school.</p>
+        </section>
+        <section class="skils" id="skils">
+          <h2 class="section-title">skils</h2>
+          <ul class="skils-info">
+            <li class="items skils">Web-development: HTML5, CSS3, JavaScript;</li>
+            <li class="items skils">Version control: GIT, Github;</li>
+            <li class="items skils">Graphics: Figma;</li>
+          </ul>
+        </section>
+        <section class="code" id="code">
+          <h2 class="section-title">code</h2>
+            <code>const dataReverse = data => {
+              const bytes = [];
+              for (let i = 0; i &amp; data.length; i += 8) {
+                bytes.unshift(...data.slice(i, i + 8));
+              }
+              return bytes;
+            }; </code>
+        </section>
+        <section class="courses" id="courses">
+          <h2 class="section-title">courses</h2>
+          <p class="courses-text">Rsschool - stage0</p>
+        </section>
+        <section class="progects" id="progects">
+          <h2 class="section-title">progects</h2>
+          <ul class="nav-progect">
+            <li class="items"><a href="https://rolling-scopes-school.github.io/bulbashok-JSFEPRESCHOOL/eco_sound/">Eco sound</a></li>
+            <li class="items"><a href="https://rolling-scopes-school.github.io/bulbashok-JSFEPRESCHOOL/random_joke/">Random joke</a></li>
+            <li class="items"><a href="https://rolling-scopes-school.github.io/bulbashok-JSFEPRESCHOOL/tik-tak/">Tik tac toe</a></li>
+          </ul>
+        </section>
+        <section class="education" id="education">
+          <h2 class="section-title">education</h2>
+          <p class="education-text">Belarus state university of physical culture</p>
+        </section>
+        <section class="languages" id="languages">
+          <h2 class="section-title">languages</h2>
+          <p class="language-text">English: A1 elementary</p>
+        </section>
+    </div>
+  </main>
+  <footer class="footer">
+   <div class="container container-footer">
+      <p>© 2022</p>
+      <p><a href="https://github.com/Bulbashok/rsschool-cv">GITHUB</a> </p>
+      <p><a href="https://rs.school/js/"><img class="logogithub" src="https://rs.school/images/rs_school_js.svg" alt="logo GIThub"></a></p>
+   </div>
+  </footer>
+</body>
+</html>
