@@ -1,2 +1,2 @@
 # rsschool-cv link
-## https://Bulbashok.github.io/rsschool-cv/
+## https://Bulbashok.github.io/rsschool-cv/ link
